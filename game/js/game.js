@@ -717,7 +717,7 @@ class Game {
 					? 'Congratulations! You have finished your custom levels!'
 					: `Congratulations! You have finished ${this.levelSetName || 'Oh3'}!`);
 				this.player.alerted = true;
-				window.location.href = "/";
+				window.location.href = "../";
 			}
 			return;
 		}
@@ -878,7 +878,7 @@ class Game {
 
 		if (this.usesCustomLevels && !Object.prototype.hasOwnProperty.call(this.levels, '1')) {
 			alert('No custom levels were found. Return to the level editor and use Play Level or Play All.');
-			window.location.href = '../../editor/index.html';
+			window.location.href = '../editor/index.html';
 			return;
 		}
 

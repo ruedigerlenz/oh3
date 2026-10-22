@@ -15,7 +15,7 @@ async function loadGamemodes() {
 	const gamemodes = document.getElementById("gamemodes");
 
 	try {
-		const catalogResponse = await fetch("/game/levelsets/catalog.json");
+		const catalogResponse = await fetch("./game/levelsets/catalog.json");
 		if (!catalogResponse.ok) {
 			throw new Error(`Failed to load levelset catalog (${catalogResponse.status})`);
 		}
@@ -32,7 +32,7 @@ async function loadGamemodes() {
 					throw new Error("Invalid levelset name in catalog");
 				}
 
-				const response = await fetch(`/game/levelsets/${encodeURIComponent(levelsetId)}.json`);
+				const response = await fetch(`./game/levelsets/${encodeURIComponent(levelsetId)}.json`);
 				if (!response.ok) {
 					throw new Error(`Failed to load levelset ${levelsetId} (${response.status})`);
 				}
@@ -47,7 +47,7 @@ async function loadGamemodes() {
 				button.textContent = levelset.name;
 				button.title = `Play ${levelset.name}`;
 				button.addEventListener("click", () => {
-					window.location.href = `/game/?levelset=${encodeURIComponent(levelsetId)}`;
+					window.location.href = `./game/?levelset=${encodeURIComponent(levelsetId)}`;
 				});
 				gamemodes.append(button);
 				loadedLevelsetCount += 1;
@@ -68,7 +68,7 @@ async function loadGamemodes() {
 }
 
 function customLevels() {
-	window.location.href = "/editor/";
+	window.location.href = "./editor/";
 }
 
 window.addEventListener("hashchange", syncGamemodeMenu);
