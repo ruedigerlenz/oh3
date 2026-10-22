@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'IBM Plex Mono', monospace;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 16px;
+	background-color: #ccc;
+}
+
+.game-container {
+	position: relative;
+	width: min(800px, calc(100vw - 32px));
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(0);
+	}
+
+	25% {
+		transform: translate(-50px, 0px);
+	}
+
+	50% {
+		transform: translate(50px, 0px);
+	}
+
+	75% {
+		transform: translate(-50px, 0px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+.shake {
+	animation: shake 0.5s ease;
+}
+
+
+canvas {
+	background-color: #808080;
+	display: block;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 4 / 3;
+	border: none;
+}
+
+.game-info {
+	position: absolute;
+	top: 50%;
+	right: calc(100% + 24px);
+	transform: translateY(-50%);
+	width: 180px;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+	padding: 16px;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+	border-radius: 8px;
+	background: #e8e8e8;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+	text-align: left;
+}
+
+#level-name {
+	overflow-wrap: anywhere;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+#time {
+	font-weight: 700;
+}
+
+#paused {
+	display: none;
+	font-size: 14px;
+}
+
+p {
+	font-size: 16px;
+	color: black;
+}
+
+@media (max-width: 1240px) {
+	.game-info {
+		top: auto;
+		right: auto;
+		bottom: calc(100% + 12px);
+		left: 50%;
+		transform: translateX(-50%);
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		width: min(800px, calc(100vw - 32px));
+		gap: 8px 16px;
+		padding: 12px;
+	}
+
+	#paused {
+		flex-basis: 100%;
+	}
+}

@@ -1,0 +1,511 @@
+{
+  "name": "Oh 3",
+  "levels": {
+    "1": {
+      "name": "",
+      "time": 7,
+      "map": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAABEAAREREBEAEQARAAERERARABEAEQABEREWEWYRZhFmYRERERERERERERER",
+      "metadata": {
+        "tileVariants": {},
+        "doorRequiresKey": {},
+        "portals": []
+      }
+    },
+    "2": {
+      "name": "",
+      "time": 8,
+      "map": "EREREREREREREREREREREREREREBEREREREREREQABERERERERERAAABEREREREREAAAABEREREREQAAAAABERERERAAAAAAABEREREAAAAAAAABEREQAAAAEAAAABERAAAAAREAAAAAAAAAABEREAARERERAAEREREAABERAAAREREREHIRETABERERERERERERERER",
+      "metadata": {
+        "tileVariants": {},
+        "doorRequiresKey": {},
+        "portals": []
+      }
+    },
+    "3": {
+      "name": "",
+      "time": 30,
+      "map": "ERMRFRAAAAAABREQARAUAAARERAAAAAQERERFmYQAAAAAAZmZmYGEAAAAAAAAAAABhAAAAAAERERFEQQAAAAABEREREREAAAAAAREREQAAAAAAAAEREREAAAAAAAABERERAAAAAAAFAREREQAABwAAAREREREAAAERABERERERAAABEQERERERESAAARERERERERERER",
+      "metadata": {
+        "tileVariants": {
+          "9,1": "2"
+        },
+        "doorRequiresKey": {},
+        "portals": [
+          {
+            "source": {
+              "x": 15,
+              "y": 5
+            },
+            "destination": {
+              "x": 9,
+              "y": 1
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": false,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 0,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          },
+          {
+            "source": {
+              "x": 16,
+              "y": 5
+            },
+            "destination": {
+              "x": 9,
+              "y": 1
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": false,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 0,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          },
+          {
+            "source": {
+              "x": 17,
+              "y": 5
+            },
+            "destination": {
+              "x": 9,
+              "y": 1
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": false,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 0,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          }
+        ]
+      }
+    },
+    "4": {
+      "name": "",
+      "time": 10,
+      "map": "AAAAABEQAAAAAAAAAAASEAAAAAAAAAAAFxAAAAAAAAAAABAQAAAAAAAAAAAQEAAAAAAAAAABEBEAAAAAAAAAAWBhAAAAAAAAAAFgYQAAAAAAAAABEBEAAAAAAAAAARARAAAAAAAAABEDARAAAAAAAAEQAAARAAAAAAARAAAAARAAAAABFQAAAAURAAARERERERERERER",
+      "metadata": {
+        "tileVariants": {},
+        "doorRequiresKey": {},
+        "portals": []
+      }
+    },
+    "5": {
+      "name": "",
+      "time": 15,
+      "map": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAMAAwAAAAAAAAAwAQAwAAAAAAADABEQAwAAAAAAMAEREQAwAAAAAwAREREQAwAAADABEREREQAwAAMAEREREREQAwAwAREREREREQAwABEREREREREQAAEREREREREREXIRERERERERERER",
+      "metadata": {
+        "tileVariants": {
+          "9,2": "fake",
+          "7,4": "fake",
+          "11,4": "fake",
+          "6,5": "fake",
+          "12,5": "fake",
+          "5,6": "fake",
+          "13,6": "fake",
+          "4,7": "fake",
+          "3,8": "fake",
+          "15,8": "fake",
+          "2,9": "fake",
+          "16,9": "fake",
+          "1,10": "fake",
+          "17,10": "fake",
+          "0,11": "fake",
+          "18,11": "fake"
+        },
+        "doorRequiresKey": {},
+        "portals": []
+      }
+    },
+    "6": {
+      "name": "",
+      "time": 22,
+      "map": "AQAAAAAAAAAAAAEwAAAAAAAAAAABEQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAxAAEBAQEBAQEBEQAAAAAAAAAAAAABAAAAAAAAAAAAATAAAAAAAAAAAAERAQEBAQEBAAAAAAAAAAAAAAABAAAAAAAAAAAAMXAAAAAAAAAAAREREREREREREQAC",
+      "metadata": {
+        "tileVariants": {
+          "18,5": "fake",
+          "2,9": "fake",
+          "18,12": "fake"
+        },
+        "doorRequiresKey": {},
+        "portals": []
+      }
+    },
+    "7": {
+      "name": "",
+      "time": 20,
+      "map": "ZmZmZkREZmZmZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABERAAAAAAAAEREVAAAAAAAAAABCEBEREREREREREXAAAAAAAAAAAAARERERERERERER",
+      "metadata": {
+        "tileVariants": {
+          "18,11": "2"
+        },
+        "doorRequiresKey": {},
+        "portals": [
+          {
+            "source": {
+              "x": 8,
+              "y": 0
+            },
+            "destination": {
+              "x": 18,
+              "y": 11
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": false,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 0,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          },
+          {
+            "source": {
+              "x": 9,
+              "y": 0
+            },
+            "destination": {
+              "x": 18,
+              "y": 11
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": false,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 0,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          },
+          {
+            "source": {
+              "x": 10,
+              "y": 0
+            },
+            "destination": {
+              "x": 18,
+              "y": 11
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": false,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 0,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          },
+          {
+            "source": {
+              "x": 11,
+              "y": 0
+            },
+            "destination": {
+              "x": 18,
+              "y": 11
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": false,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 0,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          }
+        ]
+      }
+    },
+    "8": {
+      "name": "",
+      "time": 24,
+      "map": "AAAAAAAAAAAAAAERERERERERERABAAAAAAAAAAUQAQEREREREREQEAEBAAAAAAAFEBABAQEREREREBAQAQEBUAAAAAAQEAEBAQAAAAAAEBABAQEwAAAAABAQAQEBEREREREQEAEBUAAAAAAAABABAREREREREREQAQAAAAAAAAAAAAFQAAAAAAAAAHIRERERERERERER",
+      "metadata": {
+        "tileVariants": {},
+        "doorRequiresKey": {},
+        "portals": []
+      }
+    },
+    "9": {
+      "name": "",
+      "time": 12,
+      "map": "ERERERERERERERAABQAEAAAAAAEQAAAAAAAAAAABEAAAAAAAAAAAARAAAREQAAAAAAEQAAEAAAAAAAABEAABJwAAAAAAARAAAREQAAAAAAEQAAZmZmAAAAABEAAAAAAGAAAAARAAAAAAAGQAAAEQAAAAAAAGAAABEAAAAFAAAGAAARAAAABQAAA2ZmERERERERERERER",
+      "metadata": {
+        "tileVariants": {
+          "9,1": "2"
+        },
+        "doorRequiresKey": {},
+        "portals": [
+          {
+            "source": {
+              "x": 13,
+              "y": 10
+            },
+            "destination": {
+              "x": 9,
+              "y": 1
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": false,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 0,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          }
+        ]
+      }
+    },
+    "10": {
+      "name": "",
+      "time": 9,
+      "map": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAABEQAAAAAAAAAQAAAAAAAAAAEAAAAAAAAAABAAAAAAAAAAQAAAAAAEAAAREREWZmZmZmZm",
+      "metadata": {
+        "tileVariants": {
+          "4,13": "2"
+        },
+        "doorRequiresKey": {},
+        "portals": [
+          {
+            "source": {
+              "x": 15,
+              "y": 13
+            },
+            "destination": {
+              "x": 4,
+              "y": 13
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": true,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 90,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          }
+        ]
+      }
+    },
+    "11": {
+      "name": "",
+      "time": 25,
+      "map": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAARERFAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAABEREREAAAAAAQAAAAAAAAAAAAAAAAcAAAAABmZmERERERFGZm",
+      "metadata": {
+        "tileVariants": {
+          "15,14": "any",
+          "0,5": "2"
+        },
+        "doorRequiresKey": {},
+        "portals": [
+          {
+            "source": {
+              "x": 15,
+              "y": 14
+            },
+            "destination": {
+              "x": 0,
+              "y": 5
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": true,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1.1,
+              "angle": 45,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          },
+          {
+            "source": {
+              "x": 10,
+              "y": 10
+            },
+            "destination": {
+              "x": 15,
+              "y": 14
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": true,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 90,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          }
+        ]
+      }
+    },
+    "12": {
+      "name": "",
+      "time": 15,
+      "map": "AAAAABAQAAAAAAAAAAAQEAAAAABwAAAAFhAAAAAAEQAAABAQAAAAAAAAAAATEAAAAAAAAAAAYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAERAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGBgAAAAAAAAQEAQEAAAAABmZmZmFBZmZmZm",
+      "metadata": {
+        "tileVariants": {
+          "9,14": "2",
+          "0,10": "2"
+        },
+        "doorRequiresKey": {},
+        "portals": [
+          {
+            "source": {
+              "x": 4,
+              "y": 13
+            },
+            "destination": {
+              "x": 9,
+              "y": 14
+            },
+            "mode": "bidirectional",
+            "momentum": {
+              "enabled": true,
+              "calculation": "dynamic",
+              "velocity": 21,
+              "multiplier": 1,
+              "angle": 90,
+              "bounce": false,
+              "bounceThreshold": 5,
+              "bounceRetention": 0
+            }
+          },
+          {
+            "source": {
+              "x": 6,
+              "y": 13
+            },
+            "destination": {
+              "x": 0,
+              "y": 10
+            },
+            "mode": "bidirectional",
+            "momentum": {
+              "enabled": true,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 42,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          }
+        ]
+      }
+    },
+    "13": {
+      "name": "",
+      "time": 20,
+      "map": "ZmZmVmZmZmZmZgFmYAAAAAAAAAABERAwAAAAAAAAACAQAAAAAAAAAAAAEAAAAAAAAAABERAAAAAAAAAABlZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdWZmVmZhERERER",
+      "metadata": {
+        "tileVariants": {},
+        "doorRequiresKey": {},
+        "portals": []
+      }
+    },
+    "14": {
+      "name": "",
+      "time": 30,
+      "map": "AAAAAAAAAAAAAAAwAAAwAAMAAAAAFQAAFQABUDAAAAAAMAADAAAVAAAAABUAAVAAAAAAAAAAAAAAAAAAAAAAAAMAAwAAMAADAAABUAFQABUwAVAAAAAAAAAAFQAAAAMAAAAAAAAAADABUAADADAAMAAVAAAAUQAVABUAAAcgAAAAAAAAAAEREQAAAABmZmZhERFmZmZm",
+      "metadata": {
+        "tileVariants": {
+          "2,11": "fake",
+          "6,10": "fake",
+          "9,9": "fake",
+          "15,10": "fake",
+          "13,6": "fake",
+          "9,6": "fake",
+          "18,6": "fake",
+          "13,1": "fake",
+          "16,2": "fake",
+          "6,3": "fake",
+          "2,1": "fake",
+          "3,7": "fake",
+          "11,3": "fake",
+          "0,8": "fake",
+          "18,10": "fake"
+        },
+        "doorRequiresKey": {},
+        "portals": []
+      }
+    },
+    "15": {
+      "name": "",
+      "time": 15,
+      "map": "ZmZmYRERAAAAAAAQAQACAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAEAAAAEAAAAAAAAAAAEAAAAAAAAHAAEAAAAAAAAAQRFmZmZmZmZmZm",
+      "metadata": {
+        "tileVariants": {
+          "1,11": "2"
+        },
+        "doorRequiresKey": {
+          "9,1": false
+        },
+        "portals": [
+          {
+            "source": {
+              "x": 19,
+              "y": 13
+            },
+            "destination": {
+              "x": 1,
+              "y": 11
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": true,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 1,
+              "angle": 90,
+              "bounce": false,
+              "bounceThreshold": 2,
+              "bounceRetention": 0.5
+            }
+          }
+        ]
+      }
+    }
+  }
+}
