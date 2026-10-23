@@ -506,6 +506,42 @@
           }
         ]
       }
+    },
+    "16": {
+      "name": "",
+      "time": 30,
+      "map": "AAAAAAAAABAAAEAAAAAAAAAQAAAAAAAAAAACEAAAAAAAAAABERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREQAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAAARERERZmZmZmZm",
+      "metadata": {
+        "tileVariants": {
+          "0,1": "2"
+        },
+        "doorRequiresKey": {
+          "13,2": false
+        },
+        "portals": [
+          {
+            "source": {
+              "x": 19,
+              "y": 12
+            },
+            "destination": {
+              "x": 0,
+              "y": 1
+            },
+            "mode": "unidirectional",
+            "momentum": {
+              "enabled": true,
+              "calculation": "dynamic",
+              "velocity": 0,
+              "multiplier": 0.5,
+              "angle": 0,
+              "bounce": true,
+              "bounceThreshold": 0,
+              "bounceRetention": 1
+            }
+          }
+        ]
+      }
     }
   }
 }
